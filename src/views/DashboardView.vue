@@ -18,7 +18,7 @@
             </span>
           </li>
         </ol>
-      </section>createRouter
+      </section>
 
       <!-- 步骤 1: 材料输入 -->
       <section id="material-section" class="transition-opacity duration-500">
