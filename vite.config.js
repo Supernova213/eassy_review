@@ -11,7 +11,7 @@ export default defineConfig({
   // For GitHub Pages deployment
   base: process.env.NODE_ENV === 'production' ? '/eassy_review/' : '/',
   build: {
-    outDir: 'dist',
+    outDir: 'docs',
     assetsDir: 'assets'
   }
 })
