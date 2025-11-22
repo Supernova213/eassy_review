@@ -8,6 +8,7 @@ export default defineConfig({
     port: 3000,
     host: true
   },
+  base: process.env.NODE_ENV === 'production' ? '/eassy_review/' : '/',
   build: {
     outDir: 'docs',
     assetsDir: 'assets'
